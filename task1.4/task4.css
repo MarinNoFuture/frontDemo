@@ -1,0 +1,31 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+article{
+	height: 200px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+	background-color: #ccc;
+}
+.circle{
+	height: 50px;
+	width: 50px;
+	background-color: #fc0;
+}
+.left-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 50px;
+}
+.right-bottom{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-top-left-radius: 50px;
+}
