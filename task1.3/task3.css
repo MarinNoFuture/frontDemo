@@ -15,10 +15,9 @@ img{
 	max-width: 80px;
 	margin: 20px;
 }
-.one{
+header{
 	width: 200px;
 	border: 1px solid #000;
-	/*display: inline-block;*/
 	float: left;
 }
 article{
@@ -29,6 +28,5 @@ article{
 aside{
 	width: 120px;
 	border: 1px solid #000;
-	/*display: inline-block;*/
 	float: right;
 }
