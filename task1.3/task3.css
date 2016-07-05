@@ -9,8 +9,6 @@ main{
 	padding: 20px;
 	width: 95%;
 	overflow: hidden;	
-	/*height: 300px;*/
-	/*display: inline-block;*/
 }
 img{
 	max-height: 80px;
@@ -20,16 +18,17 @@ img{
 .one{
 	width: 200px;
 	border: 1px solid #000;
-	display: inline-block;
-	/*float: left;*/
+	/*display: inline-block;*/
+	float: left;
 }
 article{
+	padding: 20px;
 	margin: 0px 142px 0px 222px;
 	border: 1px solid #000;
 }
 aside{
 	width: 120px;
 	border: 1px solid #000;
-	display: inline-block;
-	/*float: right;*/
+	/*display: inline-block;*/
+	float: right;
 }
