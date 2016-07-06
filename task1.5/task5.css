@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Microsoft YaHei";
+	background: #dedede;
+	/*min-width*/
+	min-width: 800px;
+}
+ul li{
+	list-style: none;
+}
+h2{
+	font-size: 36px;
+}
+span{
+	font-size: 16px;
+	/*color: lightgray;*/
+}
+img{
+	max-height: 60px;
+	max-width: 60px;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	z-index: 1;
+}
+.logo{
+	margin-left: 3%;
+}
+nav ul{
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+nav ul li{
+	float: left;
+	width: 60px;
+	padding: 18px 15px;
+	text-align: center;
+}
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+nav ul li:hover{
+	border-bottom: 1px solid gray;
+	background-color: #474747;
+	border-radius: 3px;
+}
+main{
+	position: relative;
+	padding: 60px 15px;
+}
+article,aside{
+	line-height: 1.5;
+	display:block;
+	background-color: white;
+	margin: 30px 15px;
+	padding: 20px;
+	-webkit-box-shadow:2px 2px 5px #666;
+    -moz-box-shadow:2px 2px 5px #666;  
+    box-shadow:2px 2px 5px #666;  
+}
+.left{
+	position: absolute;
+	right:580px;
+	left: 15px;
+	min-width: 200px;
+	margin-bottom: 40px;
+	float: left;
+}
+article h2{
+    padding:5px 0;
+}
+article h3{
+    padding:10px 0;
+    color:#808080;
+    font-size:16px;
+}
+article a{
+    color:blue;
+}
+article a:hover{
+    color:red;
+}
+.author,.publishTime{
+	line-height:30px;
+    color:#808080;
+    font-size:12px;
+}
+article p{
+	text-indent: 2em;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+article ol{
+	margin: 10px 40px;
+}
+article dl dd{
+	display: inline-block;
+	width: 120px;
+	margin: 15px;
+	border: 1px solid #CCC;
+}
+article dl dd span{
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	margin: 5px 5px 0px 5px;
+}
+article dl dd img{
+	max-width: 100px;
+	max-height: 100px;
+	padding: 10px;
+}
+article table{
+	border-collapse:collapse;
+	width: 100%;
+}
+article thead th{
+	color: white;
+	background: #333;
+}
+article table tr td{
+    border:1px solid #ccc;
+}
+article table tfoot{
+	background:#ccc;
+}
+aside{
+	width: 500px;
+	float: right;
+}
+aside h4{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border-left: 3px solid #ccc;
+}
+aside form div{
+    font-size: 14px;
+    margin:15px 0;
+}
+aside form div .tips{
+	float: left;
+	text-align: right;
+	width: 35%;
+	padding-right: 15px;
+}
+aside form div p{
+	margin-left: 35%;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #aaa;
+}
+aside textarea{
+	width: 50%;
+	height: 100px;
+}
+aside .submitBtn{
+    width:100%;
+    height:40px;
+    border-radius: 10px;
+    background: #128fdc;
+    color: white;
+    font-size: 19px;
+    border:none;
+}
+aside .submitBtn:hover{
+    background: #0063dc;
+}
+footer{
+	background-color: #333;
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+}
