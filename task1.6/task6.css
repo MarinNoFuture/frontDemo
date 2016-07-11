@@ -251,20 +251,20 @@ header hr{
   list-style-image: url("../img/triangle.png");
 }
 #bottom-news .right .bottom ul li{
-  font-size: 16px;
-  color: #5a5b5b;
-  font-family: "宋体";
-  text-align: left;
-  margin-left: 50px;
-  padding-top: 20px;
+    font-size: 16px;
+    color: #5a5b5b;
+    font-family: "宋体";
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 20px;
 }
 .sp{
-  font-size: 12px;
-  font-family: "宋体";
-  font-style: oblique;
-  text-align: right;
-  line-height: 20px;
-  color: #5a5b5b;
+    font-size: 12px;
+    font-family: "宋体";
+    font-style: oblique;
+    text-align: right;
+    line-height: 20px;
+    color: #5a5b5b;
 }
 .juxing{
 	position: absolute;
@@ -301,34 +301,34 @@ header hr{
 	margin-right: 20px;
 }*/
 .r_text_3{
-  font-size: 14px;
-  color: #5a5b5b;
-  font-family: "黑体";
-  font-style: oblique;
-  line-height: 16px;
-  text-indent: 3em;
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-  width: 178px;
-  height: 160px;
-  margin-right: 10px;
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: "黑体";
+    font-style: oblique;
+    line-height: 16px;
+    text-indent: 3em;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 178px;
+    height: 160px;
+    margin-right: 10px;
 }
 .r_text_3 span{
-  font-size: 72px;
-  color: #d45d5c;
-  font-family: "黑体";
-  line-height: 30px;
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "黑体";
+    line-height: 30px;
 }
 .pu_left{
-  position: absolute;
-  bottom: 120px;
-  right: 150px;
-  font-style: normal;
+    position: absolute;
+    bottom: 120px;
+    right: 150px;
+    font-style: normal;
 }
 .pu_right{
-  position: absolute;
-  bottom: 45px;
-  right: 0px;
-  font-style: normal;
+    position: absolute;
+    bottom: 45px;
+    right: 0px;
+    font-style: normal;
 }
