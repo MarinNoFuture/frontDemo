@@ -1,0 +1,39 @@
+body,div,p,h1,h2,h3,h4,ul,li,dl,dd,textarea,input{
+	margin: 0;
+	padding: 0;
+}
+img{
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+.box{
+	background-color: #afa4a4;
+	height: 1200px;
+	width: 80%;
+	margin: 0 auto;
+}
+.img_list{
+	font-size: 0px;
+	letter-spacing: 0px;
+	word-spacing: 0px;	
+}
+.img_list .item{
+	display: inline-block;
+	font-size: 15px;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+	/*margin-left: -4px;*/
+}
+.img_box{
+	height: 50%;
+	width: 50%;
+}
+@media only screen and (max-width: 1000px){
+	.box{
+		height: 700px;
+		width: 40%;
+		background-color: #000000;
+	}
+}
