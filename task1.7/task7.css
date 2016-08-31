@@ -526,4 +526,6 @@ span.short-line{
 	position: absolute;
 	right: 40px;
 	bottom: 18px;
+	font-size: 12px;
+	color: #fff;
 }
