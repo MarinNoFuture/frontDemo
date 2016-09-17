@@ -21,7 +21,7 @@ html,body {
 	box-sizing: border-box;
 	float: left;
 	min-height: 1px;
-	width: 16.66%;
+	/*width: 16.66%;*/
 	/*our gutter*/
 	padding: 10px;
 }
