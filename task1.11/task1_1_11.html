@@ -13,7 +13,7 @@
 	<!-- 为搜索引擎抓取 -->
 	<meta name="robots" content="index,follow">
 	<!-- 为移动设备添加viewport -->
-	<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+	<!-- <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> -->
 	<!-- width=device-width会导致iphone5添加到主屏webapp后全屏模式打开出现黑框 -->
 	<!-- ios device begin -->
 	<!-- 添加到主屏后的标题（iOS 6 新增） -->
@@ -28,11 +28,169 @@
     <meta name="format-detection" content="telphone=no, email=no">
     <!-- 启用360浏览器中的极速模式（webkit） -->
     <meta name="renderer" content="webkit">
-    <!-- 避免IE使用兼容模式 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="js/mobile-util.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/task11.css">
 	<title>task 11</title>
 </head>
 <body>
-
+	<div class="top-bar">
+		<a class="back-key">返回</a>
+		<h1>这是标题</h1>
+	</div>
+	<div class="nav-bar">
+		<a class="active">导航</a>
+		<a>导航</a>
+		<a>导航</a>
+		<a>导航</a>
+		<a>导航</a>
+	</div>
+	<div class="main-con">
+		
+		<div class="banner">
+			<div class="imgbox">
+				<img src="img/banner.jpg"/>
+			</div>
+		</div>
+		<div class="wrapper section1">
+			<ul class="labelbox">
+				<li>
+					<span></span>
+					<a>标签</a>
+				</li>
+				<li>
+					<span></span>
+					<a>标签</a>
+				</li>
+				<li>
+					<span></span>
+					<a>标签</a>
+				</li>
+				<li>
+					<span></span>
+					<a>标签</a>
+				</li>
+				<li>
+					<span></span>
+					<a>标签</a>
+				</li>
+			</ul>
+		</div>
+		<div class="wrapper section2">
+			<div class="columnbox">
+				<div class="item-column">
+					<div class="imgbox">
+						<img src="img/demo1.jpg" />
+					</div>
+					<h2>分栏一</h2>
+					<h3>分栏小标题</h3>
+				</div>
+				<div class="item-column">
+					<div class="imgbox">
+						<img src="img/demo1.jpg" />
+					</div>
+					<h2>分栏一</h2>
+					<h3>分栏小标题</h3>
+				</div>
+				
+				<div class="item-column">
+					<div class="imgbox">
+						<img src="img/demo1.jpg" />
+					</div>
+					<h2>分栏一</h2>
+					<h3>分栏小标题</h3>
+				</div>
+				
+				
+			</div>
+		</div>
+		<div class="section3">
+			<h2>模块一</h2>
+			<div class="section_item">
+				<div class="imgbox titleimg">
+					<img src="img/titleimg.jpg"/>
+				</div>
+				<div class="text_case">
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+				</div>
+			</div>
+			<div class="section_item">
+				<div class="imgbox titleimg">
+					<img src="img/titleimg.jpg"/>
+				</div>
+				<div class="text_case">
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+				</div>
+			</div>
+		</div>
+		<div class="section3">
+			<h2>模块一</h2>
+			<div class="section_item">
+				<div class="imgbox titleimg">
+					<img src="img/titleimg.jpg"/>
+				</div>
+				<div class="text_case">
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+				</div>
+			</div>
+			<div class="section_item">
+				<div class="imgbox titleimg">
+					<img src="img/titleimg.jpg"/>
+				</div>
+				<div class="text_case">
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+					<h3>这是文案</h3>
+				</div>
+			</div>
+		</div>
+		<div class="section4">
+			<ul>
+				<li class="article-item">
+					<div class="imgbox">
+						<img src="img/demo2.jpg"/>
+					</div>
+					<div class="article-con">
+						<h3>这是标题这是标题这是标题这是标题这是标</h3>
+						<p>文章来源 <span>7</span>分钟前</p>
+					</div>
+				</li>
+				<li class="article-item">
+					<div class="imgbox">
+						<img src="img/demo2.jpg"/>
+					</div>
+					<div class="article-con">
+						<h3>这是标题这是标题这是标题这是标题这是标</h3>
+						<p>文章来源 <span>7</span>分钟前</p>
+					</div>
+				</li>
+			</ul>
+			<div class="article-item-gat">
+				<h3>这是标题这是标题这是标题这是标题</h3>
+				<div class="titleimg">
+					<div class="imgbox">
+						<img src="img/demo2.jpg"/>
+					</div>
+					<div class="imgbox">
+						<img src="img/demo2.jpg"/>
+					</div>
+					<div class="imgbox">
+						<img src="img/demo2.jpg"/>
+					</div>
+				</div>
+				<p>文章来源 <span>7</span>分钟前</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
